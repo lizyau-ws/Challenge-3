@@ -1,0 +1,65 @@
+body {
+  margin: 5vh 5vw;
+	font-family: 'chivo';
+	color: #FFFFFF;
+	background:linear-gradient(to bottom, #0a1336, #171b27, #19191a);
+  padding: 0;
+	height: 100vh;
+  box-sizing: border-box;
+  list-style: none;
+  }
+
+  .column {
+    float: left;
+    width: 40vw;
+    padding: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.enterInfo{
+  margin-top: 8vh;
+}
+
+
+#weather {
+	width: 320px;
+	padding: 6px;
+	text-align: center;
+  margin-top: 2vh;
+}
+
+.hidden {
+	display: none;
+}
+
+  #map {
+    margin-top: 10vh;
+    height: 78vh;
+    width: 45vw;
+  }
+
+  .no{
+    font-size: 25pt;
+    font-weight: bold;
+    color: red;
+  }
+  .noImg{
+    width: 300px;
+  }
+
+  .yes{
+    font-size: 25pt;
+    font-weight: bold;
+    color: greenyellow;
+  }
+
+  .yesImg{
+    height: 320px ;
+  }
+
+

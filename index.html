@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Liz Yau Challenge 3</title>
+        <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+        <script src="scripts/main.js" defer></script>
+        <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+        <link href="style/main.css" rel="stylesheet" />
+    
+
+	</head>
+
+	<body>
+    <div class="row">
+        <div class="column">
+
+            <form class = "enterInfo">
+                    <h2>Where do you want to land?</h2>
+                    <legend>Type a city below. We need temperature between -5 and 25 &#176;C and either with clear sky, few clouds or scattered clouds.</legend><br>
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" />
+                    <input type="button" id="checkCondition" value="Check Condition" />
+            </form>
+            <article id="weather"></article>
+        </div>
+
+        <div class="column">
+            <div id="map"></div>
+        </div>
+
+    </div>
+
+	</body>
+
+</html>
