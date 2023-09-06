@@ -7,7 +7,7 @@ function getAPIdata() {
 	var request = url + '?' + 'appid=' + apiKey + '&' + 'q=' + city;
 
 
-	// get current weather
+	// get current weather 現在的天氣
 	fetch(request)
 	
 	.then(function(response) {
@@ -15,7 +15,7 @@ function getAPIdata() {
 		return response.json();
 	})
 	
-	// render weather per day
+	// render weather per day 接下來的天氣
 	.then(function(response) {
 		// render weatherCondition
 		onAPISucces(response);	
